@@ -1,5 +1,5 @@
-const API_KEY = "d9807ff6cde74e678508ced627e9738a";
-const url = "https://newsapi.org/v2/everything?q=";
+const API_KEY = process.env.NEWS_API_KEY; // it will Fetch API key from environment variables
+const url = `https://newsapi.org/v2/everything?q=&apiKey=${API_KEY}`;
 
 window.addEventListener("load", () => fetchNews("India"));
 
