@@ -8,9 +8,9 @@ This project is a simple news application that displays recent news articles fro
 - Categories include Finance, Politics, and Climate.
 
 ## Screenshot
-Here's a preview of the app layout:
+Here’s a preview of the app layout:
 
-![App Screenshot](./image/output.png)
+![App Screenshot](./images/Output.png)
 
 ## Project Structure
 - **index.html** - Main HTML file for the app layout and structure.
